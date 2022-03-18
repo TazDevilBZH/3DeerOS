@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Shebang for better detection of file type
+
+export DIST_NAME=3DeerOS
+export DIST_VERSION=0.0.1
+export BASE_IMAGE_ENLARGEROOT=2500
+export MODULES="base,pkgupgrade,3deeros(network,piconfig,klipper,is_req_preinstall,moonraker,mainsail,mjpgstreamer,serialcomm,password-for-sudo)"
+export BASE_RELEASE_COMPRESS=yes
+export BASE_IMAGE_RESIZEROOT=600
